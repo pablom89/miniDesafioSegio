@@ -6,7 +6,7 @@ import './Header.scss';
 export default function Header() {
   return (
     <header>
-      <Link to="/">Inicio</Link>
+      <Link to="/">Mi tabla</Link>
       <Link to="/form">Agregar info</Link>
     </header>
   );

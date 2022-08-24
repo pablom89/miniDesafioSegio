@@ -1,0 +1,33 @@
+section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  background-color: burlywood;
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  button {
+    border-radius: 5px;
+    max-width: 80%;
+  }
+
+  div {
+    color: red;
+  }
+}
