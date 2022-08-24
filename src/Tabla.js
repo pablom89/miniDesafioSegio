@@ -1,11 +1,11 @@
 import React from 'react';
-//import Table from 'react-bootstrap/Table';
+import Table from 'react-bootstrap/Table';
 import { data } from './data.js';
 
 export default function Tabla() {
   return (
     <main>
-      <table>
+      <Table striped bordered hover>
         <thead>
           <tr>
             <th scope="col">Nombre</th>
@@ -17,16 +17,16 @@ export default function Tabla() {
         <tbody>
           {data.map((d, i) => {
             return (
-              <tr>
-                <td key={i}>{d.nombre}</td>
-                <td key={i}>{d.edad}</td>
-                <td key={i}>{d.carrera}</td>
-                <td key={i}>{d.hobbie}</td>
+              <tr key={i}>
+                <td>{d.nombre}</td>
+                <td>{d.edad}</td>
+                <td>{d.carrera}</td>
+                <td>{d.hobbie}</td>
               </tr>
             );
           })}
         </tbody>
-      </table>
+      </Table>
     </main>
   );
 }
