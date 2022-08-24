@@ -1,7 +1,7 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
-import { data } from './data.js';
-import './Tabla.scss';
+import { data } from '../data.js';
+import '../sass/Tabla.scss';
 
 export default function Tabla() {
   return (

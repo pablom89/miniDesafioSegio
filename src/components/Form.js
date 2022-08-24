@@ -4,8 +4,8 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Swal from 'sweetalert2';
 
-import './Form.scss';
-import { data } from './data.js';
+import '../sass/Form.scss';
+import { data } from '../data.js';
 
 const NewRow = Yup.object().shape({
   nombre: Yup.string()
