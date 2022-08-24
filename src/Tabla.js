@@ -1,11 +1,12 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 import { data } from './data.js';
+import './Tabla.scss';
 
 export default function Tabla() {
   return (
     <main>
-      <Table striped bordered hover variant="dark">
+      <Table striped bordered responsive>
         <thead>
           <tr>
             <th scope="col">Nombre</th>
