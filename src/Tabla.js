@@ -5,7 +5,7 @@ import { data } from './data.js';
 export default function Tabla() {
   return (
     <main>
-      <Table striped bordered hover>
+      <Table striped bordered hover variant="dark">
         <thead>
           <tr>
             <th scope="col">Nombre</th>

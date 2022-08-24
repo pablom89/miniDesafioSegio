@@ -4,7 +4,7 @@ import Yup from 'yup';
 
 import { data } from './data.js';
 
-export default function Form() {
+export default function Formulario() {
   const SignupSchema = Yup.object().shape({
     nombre: Yup.string()
       .min(2, 'Too Short!')
